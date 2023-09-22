@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Montserrat:wght@500&family=Staatliches&display=swap');
 
+/* Navbar */
+
 .logo-img {
     max-width: 120px;
     max-height: 100%;
@@ -36,7 +38,36 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     transform: scale(1.1);
     color: #fff;
     transition: 0.3s ease-in-out;
+    text-decoration: none;
 }
+
+/* Banner */
+
+.banner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+}
+
+.banner h1 { 
+    color: #5ca500;
+    font-size: 90px;
+    font-family: "Oswald", arial;
+    margin-left: -20%;
+    padding-top: 50vh;
+}
+
+.wrap {
+    border-right: 0.08em solid #5ca500;
+  }
+
+  video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+  }
+
 
 
 
