@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Montserrat:wght@500&family=Staatliches&display=swap');
+
+.logo-img {
+    max-width: 120px;
+    max-height: 100%;
+    width: auto;
+
+}
+
+.nav {
+    background-color: #000;
+}
+
+
+.nav-text {
+    font-family: 'Orbitron',Montserrat,Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 96px;
+    padding: 4px 9px 0;
+    letter-spacing: 0.05rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav-text:hover {
+    color: #5ca500;
+    text-decoration: underline;
+    /* text-underline-position:  */
+    text-decoration-thickness: 0.2rem;
+
+}
+
+
+
