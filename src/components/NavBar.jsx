@@ -15,7 +15,9 @@ export const NavBar = () => {
           alt="GKM Logo"
         />
       </Navbar.Brand>
-      <Nav className="me-auto">
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="me-auto">
             <Nav.Link 
                 className={ activeLink === 'home' ? 'active navbar-link nav-text' : 'navbar-link nav-text' } 
                 href="#home"
@@ -52,6 +54,7 @@ export const NavBar = () => {
                 Contacto
             </Nav.Link>
           </Nav>
+          </Navbar.Collapse>
     </Container>
   </Navbar>
   )
