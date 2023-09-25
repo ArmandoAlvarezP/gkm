@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 export const Banner = () => {
 
@@ -41,14 +41,12 @@ const tick = () => {
 
 return (
     <section className="banner" id="home">
-        <video src="./video/Video-480.mov" loop="true" autoPlay="true" muted="true"></video>
-        <Container>
+            <video src="./video/Video-480.mov" loop="true" autoPlay="true" muted="true"></video>
             <Row className="align-items-center">
                 <Col>
                     <h1>Creamos<span className="wrap"> {text}</span></h1>
                 </Col>
             </Row>
-        </Container>
     </section>
 )
 
