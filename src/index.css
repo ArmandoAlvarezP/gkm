@@ -96,6 +96,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     color: #5ca500;
     margin-right: 65vw;
     border: solid 0.15em;
+    margin-bottom: 5vh;
   }
 
   .nosotros p {
