@@ -46,6 +46,11 @@ export const Footer = () => {
                     </Row>
                 </Col>
             </Row>
+            <Row className='footer-element'>
+                <Col>
+                    <p className='copyrigth'>2020, Gluon Knowledge, Todos los derechos reservados</p>
+                </Col>
+            </Row>
         </Container>
     </section>    
   )

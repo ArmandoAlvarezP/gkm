@@ -86,6 +86,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   text-decoration: underline;
 }
 
+.copyrigth {
+  color: #919394 !important;
+}
+
 /* Mascota */
 
 /* ----------------------------------------------
@@ -156,6 +160,10 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     z-index: -1;
     width: 100%;
   }
+
+  /* .roller {
+    position: sticky;
+  } */
 
   /* Nosotros */
 
