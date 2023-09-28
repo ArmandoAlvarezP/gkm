@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap"
 export const Nosotros = () => {
   return (
-    <>
-        <Container className="nosotros">
+    <section className="nosotros">
+        <Container>
             <Row>
                 <Col>
                     <h3>Nosotros</h3>
@@ -16,6 +16,6 @@ export const Nosotros = () => {
                 </Col>
             </Row>
         </Container>
-    </>
+    </section>
   )
 }

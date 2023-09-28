@@ -5,6 +5,7 @@ import { MisionVision } from "../components/MisionVision"
 import { Valores } from "../components/Valores"
 import { Clientes } from "../components/Clientes"
 import { Footer } from "../components/Footer"
+import { Mascota } from "../components/Mascota"
 
 export const Inicio = () => {
   return (
@@ -15,6 +16,7 @@ export const Inicio = () => {
       <MisionVision />
       <Valores />
       <Clientes />
+      <Mascota />
       <Footer />
     </>
   )
