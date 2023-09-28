@@ -4,6 +4,7 @@ import { Nosotros } from "../components/Nosotros"
 import { MisionVision } from "../components/MisionVision"
 import { Valores } from "../components/Valores"
 import { Clientes } from "../components/Clientes"
+import { Footer } from "../components/Footer"
 
 export const Inicio = () => {
   return (
@@ -14,6 +15,7 @@ export const Inicio = () => {
       <MisionVision />
       <Valores />
       <Clientes />
+      <Footer />
     </>
   )
 }

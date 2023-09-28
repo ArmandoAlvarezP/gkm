@@ -51,6 +51,42 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     text-decoration: none;
 }
 
+/* Footer */
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.844);
+}
+
+.footer img {
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.footer h6 {
+    font-family: 'Orbitron',Montserrat,Arial,Helvetica,sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 50px;
+    letter-spacing: 0.05rem;
+    /* margin-left: 0.5rem; */
+    /* margin-right: 0.5rem; */
+    /* align-content: end; */
+}
+
+.footer-element p {
+  font-family: 'Orbitron',Montserrat,Arial,Helvetica,sans-serif;
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+  line-height: 50px;
+ 
+}
+
+.footer-element:hover a {
+  text-decoration: underline;
+}
+
 /* Banner */
 
 .banner {
