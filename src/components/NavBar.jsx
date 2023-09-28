@@ -24,7 +24,7 @@ export const NavBar = () => {
   return (
     <Navbar className={ scrolled ? 'nav scrolled' : 'nav' } fixed='top' expand='lg'>
         <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="">
             <img
             className='logo-img'
             src="/img/gkm-logo.png"
@@ -36,35 +36,35 @@ export const NavBar = () => {
             <Nav className="me-auto">
                 <Nav.Link 
                     className={ activeLink === 'home' ? 'active navbar-link nav-text' : 'navbar-link nav-text' } 
-                    href="#home"
+                    href="/"
                     onClick={() => onUpdateActiveLink('home')}
                 >
                     ¿Quiénes Somos?
                 </Nav.Link>
                 <Nav.Link  
                     className={ activeLink === 'servicios' ? 'active navbar-link nav-text' : 'navbar-link nav-text' } 
-                    href="#servicios"
+                    href="/servicios"
                     onClick={() => onUpdateActiveLink('servicios')}
                 >
                     Servicios
                 </Nav.Link>
                 <Nav.Link 
                     className={ activeLink === 'educacion' ? 'active navbar-link nav-text' : 'navbar-link nav-text' } 
-                    href="#educacion"
+                    href="/educacion"
                     onClick={() => onUpdateActiveLink('educacion')}
                 >
                     Educación
                 </Nav.Link>
                 <Nav.Link 
                     className={ activeLink === 'salud' ? 'active navbar-link nav-text' : 'navbar-link nav-text' } 
-                    href="#salud"
+                    href="/salud"
                     onClick={() => onUpdateActiveLink('salud')}
                 >
                     Salud
                 </Nav.Link>
                 <Nav.Link 
                     className={ activeLink === 'contacto' ? 'active navbar-link nav-text' : 'navbar-link nav-text' } 
-                    href="#contacto"
+                    href="/contacto"
                     onClick={() => onUpdateActiveLink('contacto')}
                 >
                     Contacto
