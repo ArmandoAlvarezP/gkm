@@ -1,6 +1,9 @@
+import { MenuServicios } from "../components/MenuServicios"
 
 export const Servicios = () => {
   return (
-    <div>Servicios</div>
+    <>
+        <MenuServicios />
+    </>
   )
 }

@@ -48,7 +48,7 @@ export const Footer = () => {
             </Row>
             <Row className='footer-element'>
                 <Col>
-                    <p className='copyrigth'>2020, Gluon Knowledge, Todos los derechos reservados</p>
+                    <p className='copyright'>2020, Gluon Knowledge, Todos los derechos reservados</p>
                 </Col>
             </Row>
         </Container>
