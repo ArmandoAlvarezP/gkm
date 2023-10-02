@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 // eslint-disable-next-line react/prop-types
-export const Roller = ({words = []}) => {
+export const Roller = ({words = [], styles}) => {
     const toRotate = words;
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
@@ -39,6 +39,6 @@ export const Roller = ({words = []}) => {
         }
     }
   return (
-    <span>{text}</span>
+    <span className={styles}>{text}</span>
   )
 }

@@ -161,9 +161,9 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     width: 100%;
   }
 
-  /* .roller {
-    position: sticky;
-  } */
+  .roller {
+    color: #5ca500;
+  }
 
   /* Nosotros */
 
