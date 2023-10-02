@@ -17,7 +17,7 @@ export const GRP = () => {
             </Row>
             <Row>
                 <Col>
-                    <Roller texto={["GestionNet"]} />
+                    <Roller words={["GestionNet", "Ideas"]} />
                 </Col>
             </Row>
         </Container>

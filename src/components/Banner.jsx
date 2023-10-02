@@ -41,7 +41,7 @@ const tick = () => {
 
 return (
     <section className="banner" id="home">
-            <video src="./video/Video-480.mov" loop="true" autoPlay="true" muted="true"></video>
+            <video src="./video/Video-480.mov" loop={true} autoPlay={true} muted={true}></video>
             <Row className="align-items-center">
                 <Col>
                     <h1>Creamos<span className="wrap"> {text}</span></h1>
