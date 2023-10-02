@@ -367,7 +367,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     }
 }
 
-
 @media( min-width: 900px) and ( max-width: 1050px) {
     .banner { 
        margin-top: -40%;

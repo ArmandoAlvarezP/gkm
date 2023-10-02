@@ -1,6 +1,17 @@
+import { useState } from "react"
+import { useNavigate } from "react-router-dom"
 import { Col, Container, Row } from "react-bootstrap"
 
 export const MenuServicios = () => {
+
+    const [section, setSection] = useState('');
+    const nav = useNavigate();
+
+    const toSection = (section) => {
+        setSection(section);
+        nav(`/servicios/#${section}`);
+    }
+
   return (
     <section className="menu-servicios">
         <Container fluid>
@@ -10,7 +21,7 @@ export const MenuServicios = () => {
                 </Col>
             </Row>
             <Row id="accordion" className="accordion">
-                <Col className="service-description grp" lg={true}>
+                <Col className="service-description grp" lg={true} onClick={() => toSection('grp')}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -27,13 +38,13 @@ export const MenuServicios = () => {
                     <h6>Sistema Integral Gestionet-GRP</h6>
                     <Row className="mt-5 mb-5">
                         <Col className="text-center">
-                            <p className="service-description">
+                            <p>
                                 Sistema Integral Mexicano con más de 20 años de experiencia que cumple puntualmente con la Ley General de Contabilidad Gubernamental (LGCG) y la normatividad emitida por el Consejo Nacional de Armonización Contable (CONAC).
                             </p>
                         </Col>
                     </Row>
                 </Col>
-                <Col className="service-description normalizacion" lg={true}>
+                <Col className="service-description normalizacion" lg={true} onClick={() => toSection('normalizacion')}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -58,16 +69,16 @@ export const MenuServicios = () => {
                     <h6>Normalización de Información</h6>
                     <Row className="mt-5 mb-5">
                         <Col className="text-center">
-                            <p className="service-description">
+                            <p>
                                 Análisis de información, definición de catálogos y estructura, homologación, levantamiento y/o reconstrucción y ajustes.
                             </p>
-                            <p className="service-description">
+                            <p>
                                 Levantamiento y/o actualización de registros del Padrón Inventarial (Activo Fijo), Levantamiento de Inventario de Almacenes, entre otros servicios.
                             </p>
                         </Col>
                     </Row>
                 </Col>
-                <Col className="service-description informatica" lg={true}>
+                <Col className="service-description informatica" lg={true} onClick={() => toSection('informatica')}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -86,16 +97,16 @@ export const MenuServicios = () => {
                     <h6>Servicios Informáticos</h6>
                     <Row className="mt-5 mb-5">
                         <Col className="text-center">
-                            <p className="service-description">
+                            <p>
                                 Análisis, diseño, desarrollo, implementación y capacitación de proyectos Administrativos
                             </p>
-                            <p className="service-description">
+                            <p>
                                 Suministro e instalación de Equipo de Cómputo, Impresión y Redes.
                             </p>
                         </Col>
                     </Row>
                 </Col>
-                <Col className="service-description comercializadora" lg={true}>
+                <Col className="service-description comercializadora" lg={true} onClick={() => toSection('comercializadora')}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -110,13 +121,13 @@ export const MenuServicios = () => {
                     <h6>Comercializadora</h6>
                     <Row className="mt-5 mb-5">
                         <Col className="text-center">
-                            <p className="service-description">
+                            <p>
                                 Suministro de equipos de computo, licenciamiento de software de uso común, consumibles para equipos de impresión y multifuncionales, Material Medico y Hospitalario, Artículos para Sanitización, Papelería, Artículos de Oficina, Artículos de Limpieza, Herramientas, Pintura, Señalización, Artículos Publicitarios, entre otros.
                             </p>
                         </Col>
                     </Row>
                 </Col>
-                <Col className="service-description cursos" lg={true}>
+                <Col className="service-description cursos" lg={true} onClick={() => toSection('cursos')}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
