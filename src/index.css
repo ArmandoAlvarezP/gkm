@@ -341,9 +341,15 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 .service-description {
+  cursor: pointer;
   font: "Open Sans", arial, sans-serif;
   font-size: 16px;
   color: rgba(255,255,255,.73);
+}
+
+.service-description:hover{
+  transition: ease-in-out 0.4s;
+  transform: scale(1.1);
 }
 
 /* Media querys */

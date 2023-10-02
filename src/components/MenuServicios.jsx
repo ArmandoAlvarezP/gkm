@@ -10,7 +10,7 @@ export const MenuServicios = () => {
                 </Col>
             </Row>
             <Row id="accordion" className="accordion">
-                <Col className="grp" lg={true}>
+                <Col className="service-description grp" lg={true}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -33,7 +33,7 @@ export const MenuServicios = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col className="normalizacion" lg={true}>
+                <Col className="service-description normalizacion" lg={true}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -67,7 +67,7 @@ export const MenuServicios = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col className="informatica" lg={true}>
+                <Col className="service-description informatica" lg={true}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -95,7 +95,7 @@ export const MenuServicios = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col className="comercializadora" lg={true}>
+                <Col className="service-description comercializadora" lg={true}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -116,7 +116,7 @@ export const MenuServicios = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col className="cursos" lg={true}>
+                <Col className="service-description cursos" lg={true}>
                     <Row className="mt-3">
                         <Col className="text-center">
                             <i>
@@ -132,7 +132,7 @@ export const MenuServicios = () => {
                     <h6>Cursos</h6>
                     <Row className="mt-5 mb-5">
                         <Col className="text-center">
-                            <p className="service-description">
+                            <p>
                                 Diseño, aplicación y evaluación de cursos en función a las necesidades de nuestros Clientes de forma presencial, en línea y a través de plataformas que colaboran con la ubicación y el tiempo de los participantes.
                             </p>
                         </Col>
