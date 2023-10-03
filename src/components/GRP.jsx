@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import { Roller } from "./Roller"
+import { GRPAccordion } from "./GRPAccordion"
 
 export const GRP = () => {
   return (
@@ -12,12 +13,17 @@ export const GRP = () => {
             </Row>
             <Row>
                 <Col>
-                    Sistema Integral de Administración y Finanzas Gubernamentales
+                    <p>Sistema Integral de Administración y Finanzas Gubernamentales</p>
                 </Col>
             </Row>
             <Row>
                 <Col>
                     <Roller words={["GestionNet"]} styles={ "roller" }/>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <GRPAccordion />
                 </Col>
             </Row>
         </Container>
