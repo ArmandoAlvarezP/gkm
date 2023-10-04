@@ -13,12 +13,7 @@ export const GRP = () => {
             </Row>
             <Row>
                 <Col>
-                    <p>Sistema Integral de Administración y Finanzas Gubernamentales</p>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <Roller words={["GestionNet"]} styles={ "roller" }/>
+                    <p>Sistema Integral de Administración y Finanzas Gubernamentales  <Roller words={["GestionNet"]} styles={ "roller" }/></p> 
                 </Col>
             </Row>
             <Row>
