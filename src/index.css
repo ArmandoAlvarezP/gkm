@@ -450,7 +450,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   font-size: 16px;
   text-align: justify;
   margin-bottom: 1vh;
-  margin-left: -10vw
+  /* margin-left: -10vw; */
 }
 
 .normalizacion-item video {
@@ -461,6 +461,27 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 .normalizacion-item-2 video {
   max-width: 500px;
   height: auto;
+}
+
+.number {
+  padding: 5vh 0 10vh 2vw;
+}
+
+.number .counter {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 46px;
+  color: #5ca500;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.number span {
+  display: block;
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  font-style: italic;
 }
 
 /* Media querys */

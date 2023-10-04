@@ -1,9 +1,10 @@
 import { Carousel, Col, Container, Row } from "react-bootstrap"
 import { Roller } from "./Roller"
+import { Counter } from "./Counter"
 
 export const Normalizacion = () => {
   return (
-    <section id="normalizacion" className="section-normalizacion">
+    <section id="normalizacion" className="section-normalizacion mb-5">
         <Container fluid>
             <Row>
                 <Col>
@@ -22,6 +23,14 @@ export const Normalizacion = () => {
                                     <p>
                                         Levantamientos realizados al día de hoy de diversos proyectos:
                                     </p>
+                                    <Row>
+                                        <Col>
+                                            <Counter number={1230} title={"Ubicaciones"}/>
+                                        </Col>
+                                        <Col>
+                                            <Counter number={235000} title={"Bienes"}/>
+                                        </Col>
+                                    </Row>
                                 </Col>
                                 <Col lg={6}>
                                     <video src="/video/almacen-video.mp4" autoPlay={true} muted={true} loop={true}></video>
@@ -40,6 +49,14 @@ export const Normalizacion = () => {
                                     <p>
                                         Levantamientos realizados al día de hoy de diversos proyectos:
                                     </p>
+                                    <Row>
+                                        <Col>
+                                            <Counter number={2353} title={"Ubicaciones"}/>
+                                        </Col>
+                                        <Col>
+                                            <Counter number={398000} title={"Bienes"} />
+                                        </Col>
+                                    </Row>
                                 </Col>
                             </Row>
                         </Carousel.Item>
