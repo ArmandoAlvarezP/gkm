@@ -4,7 +4,7 @@ import { GRPAccordion } from "./GRPAccordion"
 
 export const GRP = () => {
   return (
-    <section className="section-grp">
+    <section className="section-grp" id="grp">
         <Container>
             <Row>
                 <Col>

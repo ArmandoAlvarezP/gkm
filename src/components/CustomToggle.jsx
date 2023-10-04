@@ -1,5 +1,6 @@
 import { useAccordionButton } from "react-bootstrap";
 
+// eslint-disable-next-line react/prop-types
 export const CustomToggle = ({ children, eventKey }) => {
     const decoratedOnClick = useAccordionButton(eventKey, () =>
         console.log(eventKey),
@@ -8,6 +9,7 @@ export const CustomToggle = ({ children, eventKey }) => {
     return (
         <>
             <i
+            className="accordion-toogle"
             type="button"
             onClick={decoratedOnClick}
             >

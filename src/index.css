@@ -377,7 +377,47 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 .grp-accordion {
-  border-style: none !important;
+  border: none;
+  text-align: left;
+
+}
+
+.card-header {
+  border-bottom: none ;
+}
+
+.accordion-toogle {
+  margin-right: 1vw;
+}
+
+.accordion-toogle:hover {
+  border: #878686 solid 0.15em;
+  border-radius: 50%;
+}
+
+.accordion-title {
+  font-family: 'Oswald', arial;
+  font-size: 17px;
+  font-weight: 300;
+  margin-left: 2vw;
+}
+
+.accordion-body {
+  justify-content: center;
+}
+
+.accordion-body p {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 16px;
+  color: #555555;
+  text-align: justify;
+  line-height: 2em;
+}
+
+.accordion-body img {
+  width: 40vw;
+  height: auto;
+  margin-left: 15vw;
 }
 
 /* Media querys */

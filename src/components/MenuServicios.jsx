@@ -1,16 +1,14 @@
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
 import { Col, Container, Row } from "react-bootstrap"
 
 export const MenuServicios = () => {
 
     // eslint-disable-next-line no-unused-vars
     const [section, setSection] = useState('');
-    const nav = useNavigate();
 
     const toSection = (section) => {
         setSection(section);
-        nav(`/servicios/#${section}`);
+        window.location.href=`#${section}`
     }
 
   return (
