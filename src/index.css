@@ -573,6 +573,48 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   max-width: 600px;
   height: auto; 
 }
+
+/* MenuEducacion */
+
+.menu-educacion {
+  padding: 10vw 0 5vw 0;
+  align-content: center;
+}
+
+.menu-educacion h2 {
+  font-family: "Oswald", arial;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.menu-educacion h6 {
+  font-family: "Oswald", arial;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.menu-educacion h2 strong {
+  color: #5ca500;
+  font-weight: 100;
+}
+
+.accordion {
+  padding: 5vw 0 0 0;
+  color: white;
+}
+
+.educacion {
+  background: #59B460;
+  padding: 5vh 0 5vh 0;
+}
+
+.prepa {
+  background: #C8D544;
+  padding: 5vh 0 5vh 0;
+}
+
 /* Media querys */
 
 @media( min-width: 320px) and ( max-width: 820px) {
