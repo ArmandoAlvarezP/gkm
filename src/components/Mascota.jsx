@@ -25,7 +25,7 @@ export const Mascota = () => {
 
   return (
     <div className="mascota" onClick={() => scrollToTop() }>
-        <img className={ scrolled ? "scale-up-center mascota-scrolled" : "" } src="/img/mascota-gkm.png" alt="mascota" />
+        <img className={ scrolled ? "scale-up-center mascota-scrolled" : "scale-down-center" } src="/img/mascota-gkm.png" alt="mascota" />
     </div>
   )
 }

@@ -101,6 +101,8 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 .scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
 
+.scale-down-center{animation:scale-down-center 0.4s; } @keyframes scale-down-center{0%{transform:scale(1)}100%{transform:scale(.5)}}
+
 .mascota {
   z-index: 9999; 
   cursor: pointer;
