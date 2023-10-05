@@ -1,3 +1,5 @@
+import { Comercializadora } from "../components/Comercializadora"
+import { Cursos } from "../components/Cursos"
 import { Divider } from "../components/Divider"
 import { GRP } from "../components/GRP"
 import { Informatica } from "../components/Informatica"
@@ -12,6 +14,10 @@ export const Servicios = () => {
         <Divider />
         <Normalizacion />
         <Informatica />
+        <Divider />
+        <Comercializadora />
+        <Divider />
+        <Cursos />
     </>
   )
 }
