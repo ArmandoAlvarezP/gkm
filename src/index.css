@@ -622,14 +622,28 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   margin-bottom: 5vh;
 }
 
-.imgNumber {
+.imgNumberL {
   max-width: 30%;
   margin-bottom: 3vh;
+  text-align: left;
+}
+
+.imgNumberR {
+  max-width: 30%;
+  margin-bottom: 3vh;
+  margin-left: auto;
+  margin-right: 0;
 }
 
 .imgR {
- 
-  margin-left: 15vw;
+  margin-left: auto;
+  max-width: 100vw;
+  text-align: right;
+}
+
+.imgL {
+  max-width: 100vw;
+  text-align: left;
 }
 
 /* Media querys */
