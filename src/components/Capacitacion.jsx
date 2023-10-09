@@ -8,20 +8,20 @@ export const Capacitacion = () => {
     <section className="section-capacitacion" id="capacitacion">
         <Container>
             <Row>
-                <Col>
+                <Col className="capacitacion-title">
                     <h1>Capacitacion y Educación</h1>
-                    <hr />
+                    <hr/>
                 </Col>
             </Row>  
-            <Row>
+            <Row className="tarjeta-text">
                 <TarjetaCapacitacionR 
                     imgNumber={<img src="/img/1-flag.png" />} 
-                    img={<img src="/img/Cursos-Web-fotos.png" />} 
+                    img={<img src="/img/Cursos-Web-fotos.png" />}
                 >
-                    <h5>Gluon Knowledge México</h5>
-                    <h5>Sector de Capacitación y Educación</h5>
+                    <h5 style={{"color": "#59B460"}}>Gluon Knowledge México</h5>
+                    <h5 style={{"color": "#59B460"}}>Sector de Capacitación y Educación</h5>
                     <p>
-                        En Gluon Knowledge estamos convencidos que el conocimiento nos ayuda a comprender e interpretar mejor nuestro entorno. La forma en la que interactuamos con los demás, así como la forma en la que influimos en todo lo que nos rodea a lo largo de nuestras vidas.
+                        En <strong>Gluon Knowledge</strong> estamos convencidos que el conocimiento nos ayuda a comprender e interpretar mejor nuestro entorno. La forma en la que interactuamos con los demás, así como la forma en la que influimos en todo lo que nos rodea a lo largo de nuestras vidas.
                     </p>
                     <p>
                         De igual forma creemos que el conocimiento nos permite:
@@ -41,11 +41,11 @@ export const Capacitacion = () => {
                     imgNumber={<img src="/img/2-flag.png" />}
                     img={<img src="/img/Cursos-Web-fotos2.png" />}
                 >
-                    <h5>Enfoque Social</h5>
+                    <h5 style={{"color": "#19B6BE"}}>Enfoque Social</h5>
                     <p>
                         Somos una organización encargada de proporcionar soluciones de capacitación y educación con el compromiso de contribuir al desarrollo económico sostenible por medio de la colaboración con sus empleados, sus familias, la comunidad local y la inclusión laboral de personas con discapacidad, participando en proyectos de responsabilidad social en alianza con organizaciones civiles, impulsando un programa de becas para personas de escasos recursos.
                     </p>
-                    <h5>Enfoque Internacional</h5>
+                    <h5 style={{"color": "#19B6BE"}}>Enfoque Internacional</h5>
                     <p>
                         Contamos con alianzas internacionales que nos permite integrar un equipo consolidado de consultores, expositores, y maestros con amplia experiencia, con la finalidad de brindar a nuestros clientes, soluciones a sus necesidades de capacitación.
                     </p>
@@ -83,13 +83,13 @@ export const Capacitacion = () => {
                     imgNumber={<img src="/img/4-flag.png"/>} 
                     img={<img src="/img/Cursos-Web-fotos4.png"/>}
                 >
-                    <h5>C) Habilidades Administrativas</h5>
+                    <h5 style={{"color": "#2476B9"}}>C) Habilidades Administrativas</h5>
                     <br />
                     <p>
                         Para contar con personas y equipos de alto desempeño, es indispensable que cada organización diseñe un programa anual de capacitación que ayude a mejor las competencias y habilidades de sus integrantes, por ello ofrecemos una serie de cursos enfocados a desarrollar y fortalecer habilidades administrativas que resuelvan las necesidades de cada institución pública o privada.
                     </p>
                     <br />
-                    <h5>D) Temas Legales y de Gobierno</h5>
+                    <h5 style={{"color": "#2476B9"}}>D) Temas Legales y de Gobierno</h5>
                     <br />
                     <p>
                         Conocer y reforzar los conocimientos sobre los derechos y obligaciones que tiene cada organización en el marco legal vigente, previendo cualquier observación de la autoridad local o nacional que pudiera generar gastos.
@@ -100,7 +100,7 @@ export const Capacitacion = () => {
                     imgNumber={<img src="/img/5-flag.png"/>}
                     img={<img src="/img/Cursos-Web-fotos5.png"/>}
                 >
-                    <h5>Desarrollo profesional y personal</h5>
+                    <h5 style={{"color": "#5C4598"}}>Desarrollo profesional y personal</h5>
                     <br />
                     <p>
                         <ul>
@@ -138,7 +138,7 @@ export const Capacitacion = () => {
                     imgNumber={<img src="/img/6-flag.png"/>}
                     img={<img src="/img/Cursos-Web-fotos6.png"/>}
                 >
-                    <h5>Desarrollo profesional y personal</h5>
+                    <h5 style={{"color": "#225D39"}}>Desarrollo profesional y personal</h5>
                     <br />
                     <p>
                         <ul>

@@ -7,7 +7,7 @@ export const TarjetaPrepa = ({imgNumber, img, children}) => {
         <Row>
             <Col>
                 <Row className="imgNumberPrepa">
-                        {imgNumber}
+                    {imgNumber}
                 </Row>
                 <Row>
                     {children}

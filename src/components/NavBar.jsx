@@ -24,7 +24,7 @@ export const NavBar = () => {
   return (
     <Navbar className={ scrolled ? 'nav scrolled' : 'nav' } fixed='top' expand='lg'>
         <Container>
-        <Navbar.Brand href="">
+        <Navbar.Brand href="/">
             <img
             className='logo-img'
             src="/img/gkm-logo.png"

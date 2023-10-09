@@ -618,7 +618,22 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   padding: 5vh 0 5vh 0;
 }
 
+/* Section Capacitacion */
+
+.capacitacion-title h1 {
+  font-family: 'Oswald', arial;
+  font-size: 60px;
+  font-weight: 300;
+  color: #5ca500;
+}
+
 /* Tarjetas Capacitacion */
+  .tarjeta-text h5 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 2vh;
+}
 
 .tarjeta-capacitacion {
   margin-top: 5vh;
@@ -705,6 +720,9 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 .tarjeta-prepa h5 {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
@@ -716,7 +734,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 .tarjeta-prepa img {
   margin-left: auto;
   margin-right: auto;
-  max-width: 80%;
+  max-width: 60vw;
   padding: 3vh 0 3vh 0;
 }
 .imgNumberPrepa {

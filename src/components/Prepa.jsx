@@ -22,7 +22,7 @@ export const Prepa = () => {
                     imgNumber={<img src="/img/1.png"/>}
                     img={<img src="/img/1-CONAIP.png"/>}
                 >
-                    <h5>ACUERDO 286 SEP-FEDERAL</h5>
+                    <h5 style={{"color": "#59B460"}}>ACUERDO 286 SEP-FEDERAL</h5>
                     <br />
                     <p>
                         Con la celebración del Acuerdo 286-SEP Federal usted está al centro del modelo educativo, lo que significa que siempre contará con facilitadores y tutores, que te acompañarán para que curses esta atractiva opción de bachillerato y alcances los aprendizajes esperados en cada módulo, según el plan de estudios y el mapa curricular Esas y otras figuras de la comunidad educativa serán tu apoyo para que, con constancia y disciplina, demuestres que poseen las competencias que se esperan al término de tus estudios y te certifiques.
@@ -35,12 +35,12 @@ export const Prepa = () => {
                     imgNumber={<img src="/img/2.png"/>}
                     img={<img src="/img/2-vectores.png"/>}
                 >
-                    <h5>Perfil de Egreso</h5>
+                    <h5 style={{"color": "#19B6BE"}}>Perfil de Egreso</h5>
                     <br />
                     <p>
                         Al finalizar sus estudios educativos a nivel bachillerato, el alumno deberá contar con las competencias necesarias para el desenvolvimiento personal, profesional y social.
                     </p>
-                    <h5>El alumno deberá de desempeñar las siguientes habilidades:</h5>
+                    <h5 style={{"color": "#19B6BE"}}>El alumno deberá de desempeñar las siguientes habilidades:</h5>
                     <br />
                     <p>
                        <ul>
@@ -52,7 +52,7 @@ export const Prepa = () => {
                             <li>Dominio ortográfico: Maneja buena redacción ortográfica, lo que permite una buena comunicación escrita.</li>
                        </ul>
                     </p>
-                    <h5>El alumno deberá de desempeñar las siguientes actitudes:</h5>
+                    <h5 style={{"color": "#19B6BE"}}>El alumno deberá de desempeñar las siguientes actitudes:</h5>
                     <p>
                         <ul>
                             <li>Iniciativa: Será capaz de proponer o desarrollar, nuevas ideas o proyectos.</li>
@@ -66,13 +66,13 @@ export const Prepa = () => {
                     imgNumber={<img src="/img/3.png"/>}
                     img={<img src="/img/3-foto.png"/>}
                 >
-                    <h5>Enfoque Educativo</h5>
+                    <h5 style={{"color": "#58595B"}}>Enfoque Educativo</h5>
                     <br />
                     <p>
                         Contamos con profesores que tienen un alto nivel intelectual, que te ayudarán a fortalecer y desarrollar nuevas habilidades, aptitudes y conocimientos, que además de que te ayudarán a acreditar el examen y obtener tu certificado de estudios, esto te permitirá que tenga un mejor desempeño laboral, personal y social. Y que este sistema educativo, está basado en los enfoques por competencias y constructivista.
                     </p>
                     <br />
-                    <h5>Competencias</h5>
+                    <h5 style={{"color": "#58595B"}}>Competencias</h5>
                     <br />
                     <p>
                         Competencia es «El conjunto de comportamientos socio-afectivos y habilidades cognoscitivas, psicológicas, sensoriales y motoras que permiten llevar a cabo adecuadamente un desempeño, una función, una actividad o una tarea.» (UNESCO. 1999). No se refiere únicamente a conocimientos producto de un estudio teórico de una determinada disciplina, sino en esencia a un saber hacer complejo, operado sobre la realidad para resolver problemas y enfrentar situaciones.
@@ -85,12 +85,12 @@ export const Prepa = () => {
                     imgNumber={<img src="/img/4.png"/>}
                     img={<img src="/img/4-foto.png"/>}
                 >
-                    <h5>Constructivista</h5>
+                    <h5 style={{"color": "#2476B9"}}>Constructivista</h5>
                     <br />
                     <p>
                         El constructivismo es una corriente que explica al aprendizaje como un proceso activo, en el cual el alumno va aprendiendo conforme los aprendizajes que ya tiene, esto es que los nuevos aprendizajes los va incorporando a sus experiencias previas, además de estar centrado completamente en el alumno, éste hace una construcción propia de sus conocimientos, resultado de las actividades extremas e internas que realiza y la interacción con el medio. Por lo tanto, lo que el alumno aprende no solamente debe de ser una copia de la realidad, ni acumulación de conocimientos, sino que todos los conocimientos deben pasar por un proceso activo, el cual consiste en construir conocimiento desde la experiencia, de las cuales se organizan y extrapolan los significados.
                     </p>
-                    <h5>Enseñanza Situada</h5>
+                    <h5 style={{"color": "#2476B9"}}>Enseñanza Situada</h5>
                     <p>
                         En concordancia con lo que hemos venido argumentando, la enseñanza situada se refiere a contextualizar los contenidos, es decir, partir del contexto del estudiante para crear situaciones de interés para el alumno que lo involucren activamente en el proceso de aprendizaje, mediante la interacción con otros, la reflexión de lo que se hace y el desarrollo de prácticas en situaciones reales, de tal manera que lo que se aborde en la clase sea significativo para el estudiante para que pueda aprenderlo.
                     </p>
@@ -99,7 +99,7 @@ export const Prepa = () => {
                     imgNumber={<img src="/img/5.png"/>}
                     img={<img src="/img/5-foto.png"/>}
                 >
-                    <h5>Mapa Curricular</h5>
+                    <h5 style={{"color": "#5C4598"}}>Mapa Curricular</h5>
                     <br />
                     <p>
                         El Plan de Estudio Preparatoria se imparte en 5 Módulos de Aprendizaje:
@@ -118,7 +118,7 @@ export const Prepa = () => {
                     imgNumber={<img src="/img/6.png"/>}
                     img={<img src="/img/6-grafica.png"/>}
                 >
-                    <h5>Proceso de Certificación</h5>
+                    <h5 style={{"color": "#225D39"}}>Proceso de Certificación</h5>
                     <br />
                 </TarjetaPrepa>
                 <TarjetaPrepa
