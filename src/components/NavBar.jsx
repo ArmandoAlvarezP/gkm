@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 export const NavBar = () => {
-    const [activeLink, setActiveLink] = useState('home');
+    const [activeLink, setActiveLink] = useState('');
 
     const [scrolled, setScrolled] = useState(false);
 
@@ -24,7 +24,7 @@ export const NavBar = () => {
   return (
     <Navbar className={ scrolled ? 'nav scrolled' : 'nav' } fixed='top' expand='lg'>
         <Container>
-        <Navbar.Brand href="">
+        <Navbar.Brand href="/">
             <img
             className='logo-img'
             src="/img/gkm-logo.png"
