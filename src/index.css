@@ -623,6 +623,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 .tarjeta-capacitacion {
   margin-top: 5vh;
   margin-bottom: 5vh;
+  text-align: justify;
 }
 
 .imgNumberL {
@@ -696,16 +697,20 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 .tarjeta-prepa {
   text-align: justify;
-  padding: 5vh 0 5vh 0;
+  padding: 2vh 0 2vh 0;
 }
 
 .tarjeta-prepa h5 {
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 .tarjeta-prepa p {
-  margin-bottom: 3vh;
+  margin-bottom: 2vh;
+}
+
+.tarjeta-prepa img {
+  padding: 3vh 0 3vh 0;
 }
 .imgNumberPrepa {
   max-width: 8vw;
