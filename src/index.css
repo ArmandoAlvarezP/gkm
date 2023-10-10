@@ -869,7 +869,78 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 .devac-logo {
   margin-top: 5vh;
   margin-bottom: 5vh;
-  max-width: 25%;
+  max-width: 25% !important;
+}
+
+.devac-modelos {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+}
+
+.sillas-logos {
+  max-width: 60% !important;
+  height: auto;
+}
+
+.devac-modelos h2 {
+  font-family: 'Oswald', arial;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: left !important;
+}
+
+/* TarjetaSilla */
+
+.silla-model {
+  font-family: 'Oswald', arial;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+}
+
+.silla-img {
+  text-align: center;
+}
+
+.silla-img img {
+  max-width: 100%;
+  max-height: 300px;
+  margin-bottom: 5vh;
+  border: #d1d1d1 solid 0.4em;
+  cursor: pointer;
+}
+
+.silla-content {
+  font-family: 'Open sans', arial, sans-serif;
+  font-size: 16px;
+}
+
+.silla-demo {
+  font-size: small;
+  margin-top: -5vh;
+  text-align: center;
+}
+
+.section-devac-models {
+  font-family: 'Oswald', arial;
+}
+
+.section-devac-models h2 {
+  font-size: 36px;
+  font-weight: 200;
+}
+
+.sillas-details p {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.devac-demo {
+  max-width: 70%;
+  max-height: 60%;
 }
 
 /* Media querys */
