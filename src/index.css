@@ -59,6 +59,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 .footer img {
+  padding: 4vh 0 0 0;
   max-width: 140px;
   max-height: 140px;
 }
@@ -739,7 +740,8 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   padding: 3vh 0 3vh 0;
 }
 .imgNumberPrepa {
-  max-width: 8vw;
+  max-width: 10%;
+  max-height: fit-content;
   margin-top: 5vh;
 }
 

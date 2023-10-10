@@ -11,7 +11,7 @@ export const Footer = () => {
         <Container>
             <Row>
                 <Col lg={6}>
-                    <img src="/img/gkm-footer-logo.png" alt="" onClick={ () => toHome() } style={{ "cursor": "pointer" }} />
+                    <img src="/img/footer-logo.png" alt="" onClick={ () => toHome() } style={{ "cursor": "pointer" }} />
                 </Col>
                 <Col lg={3}>
                     <Row>
