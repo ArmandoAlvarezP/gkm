@@ -837,6 +837,41 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   height: 0.2rem;
 }
 
+/* Devac */
+
+.section-devac h1 {
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  font-family: "Oswald", arial;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.section-devac p {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 20px;
+}
+
+.section-devac span {
+  color: #1190CB;
+}
+
+.devac-img {
+  text-align: center;
+}
+
+.section-devac img {
+  padding: 5vh 0 5vh 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.devac-logo {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  max-width: 25%;
+}
+
 /* Media querys */
 
 @media( min-width: 320px) and ( max-width: 520px) {
