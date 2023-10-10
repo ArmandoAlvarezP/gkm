@@ -828,6 +828,15 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   text-align: center;
 }
 
+/* grayDivider */
+
+.grayDivider {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: rgb(199, 198, 198);
+  height: 0.2rem;
+}
+
 /* Media querys */
 
 @media( min-width: 320px) and ( max-width: 520px) {

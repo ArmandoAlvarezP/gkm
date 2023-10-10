@@ -57,7 +57,7 @@ export const Mastografias = () => {
             </Row>
             <Row>
                 <Col className="mem-video">
-                    <iframe src="https://www.youtube.com/embed/-wOZjMFk89A?si=9w6YUNHnMrdd5jC6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/-wOZjMFk89A?si=9w6YUNHnMrdd5jC6" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                 </Col>
             </Row>
         </Container>
