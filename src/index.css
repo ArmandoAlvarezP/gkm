@@ -248,6 +248,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 .valores {
   padding: 5vw 7vw 0 5vw;
   align-content: center;
+  text-align: center;
 }
 
 .valores h2 {
@@ -263,7 +264,8 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 .valores_carousel {
-  margin-left: 3vw;
+  text-align: center;
+  margin-left: 2vw;
   margin-bottom: 5vh;
 }
 
@@ -1009,4 +1011,5 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
       width: 1200px;
       height: 600px;
     }
+
 } 

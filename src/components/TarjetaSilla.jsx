@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Col, Container, Row } from "react-bootstrap"
+import { Col, Container, Row } from "react-bootstrap";
 
 // eslint-disable-next-line react/prop-types
 export const TarjetaSilla = (
